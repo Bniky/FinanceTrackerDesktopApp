@@ -14,9 +14,10 @@ def addrows(file, rows, mode="a"):  # Adds a bunch of rows of data
         Fwriter.writerows(rows)
 
 
-def filecheck(file, headings):  # Checks to see if file is empty/has right header
+def filecheck(file, header):  # Checks to see if file is empty/has right header
+    #Throw in a If loop on whether file exists before you get into stuff below.
     #This Function is sort of useless now, keeping around for now
-    info = os.stat(file)
+    info = os.stat(file) #T/F May not be the best thing here, throw in Try catch for file not found
     if info.st_size == 0:  # If file is empty
         addrow(file, header)
         print("File was empty, headers added")
@@ -32,13 +33,13 @@ def filecheck(file, headings):  # Checks to see if file is empty/has right heade
                 return True
 
 
-def createcsv(file, headings):  # Creates csv with headers provided
+def createcsv(file, header):  # Creates csv with headers provided
     if os.path.exists(file):  # Checks if that file path leads somewhere
         print("That filename already exists, choose another")
         return
     else:
         with open(file, "w") as f:
-            addrow(file, headers)
+            addrow(file, header)
         return
 
 
@@ -51,7 +52,12 @@ def changerow(file, rownum, newrow):
     addrows(file, lines, "w")  # Rewrite the whole file
 
 
+
 headers = ["Date", "Name", "Amount", "Occurrence", "Type"]
+
+#createcsv("Test.csv",headers)
+#addrow("Test.csv",[1,2,3,4,5,6,7,8,9])
+#addrows("Test.csv",[[1,2,3,4,5],[1,2,3,4,5]])
 
 
 
