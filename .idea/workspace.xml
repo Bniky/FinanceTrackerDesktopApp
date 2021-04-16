@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ead228-1153-49d8-809b-4231ddb7aa0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/FinanceTrackerDesktopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinanceTrackerDesktopApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvwriting.py" beforeDir="false" afterPath="$PROJECT_DIR$/csvwriting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/csvwriting.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +59,7 @@
       <recent name="C:\Users\eyuae\Documents\GitHub\FinanceTrackerDesktopApp\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csvwriting">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FinanceTrackerDesktopApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +88,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\eyuae\python-versions\py390\python.exe" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -151,10 +153,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="859" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613058828748">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="311" y="163" width="1058" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618555872425">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
     <state x="414" y="174" width="1092" height="859" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613058828748" />
+    <state x="311" y="163" width="1058" height="693" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.839/1440.23.1920.1057@0.23.1440.839" timestamp="1618555872425" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613068888088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
