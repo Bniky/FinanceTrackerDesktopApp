@@ -138,6 +138,22 @@ def submit():
     submitbutton.grid(row=2, column=5)
 
 
+def csvreader(file):
+    with open(file, "r") as f:
+        reader = csv.reader(f)
+        lines = list(reader)  # Turn csv into list of lists(rows)
+
+    lines.pop(0)
+    for i in lines:
+        data = tuple(i)
+        mytree.insert('', 'end', text='', values=data)
+
+
+def csvupdate(file):
+    pass
+
+
+
 
 root = tk.Tk()
 root.title("Finance Tracker")
@@ -196,9 +212,64 @@ blanklabel2.grid(row=0, column=7)
 fieldframe.columnconfigure(0, weight=1)  # First and last column are what stretches to fit the resizing...
 fieldframe.columnconfigure(7, weight=2)  # effectively keeps rows 1-4 centered
 
+#====================================
 
-c = tk.Button(treeframe, text="Bye", command= lambda: print("OUTSIDE rownum", fieldframe.grid_size()) )
-c.pack()
+mytree = ttk.Treeview(treeframe, show= "headings")
+
+mytree["columns"] = ("Type", "Name", "Amount", "Date")
+
+
+
+mytree.column("Type", anchor="w", width=120)
+mytree.column("Name", anchor="w", width=120)
+mytree.column("Amount", anchor="w", width=120)
+mytree.column("Date", anchor="w", width=120)
+
+
+mytree.heading("Type", text="Type", anchor="w")
+mytree.heading("Name", text="Name", anchor="w")
+mytree.heading("Amount", text="Amount", anchor="w")
+mytree.heading("Date", text="Date", anchor="w")
+
+
+
+csvreader("testing.csv")
+
+mytree.grid(row=0, column=0, columnspan=4, padx=5, pady = 2)
+
+blanklabel0 = tk.Label(treeframe, text=" ")  # Left blank padding column
+blanklabel0.grid(row=1, column=0)
+
+t_typefield = tk.Entry(treeframe)
+t_namefield = tk.Entry(treeframe)
+t_amountfield = tk.Entry(treeframe)
+t_datefield = tk.Entry(treeframe)
+
+j = 2
+t_typefield.grid(row=j, column=0, sticky="w", padx=5, pady = 2)
+t_namefield.grid(row=j, column=1, sticky="w", padx=5, pady = 2)
+t_amountfield.grid(row=j, column=2, sticky="w", padx=5, pady = 2)
+t_datefield.grid(row=j, column=3, sticky="w", padx=5, pady = 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# c = tk.Button(treeframe, text="Bye", command= lambda: csvreader("testing.csv") )
+# c.pack()
 
 
 root.mainloop()

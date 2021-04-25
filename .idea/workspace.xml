@@ -22,6 +22,7 @@
     <list default="true" id="37ead228-1153-49d8-809b-4231ddb7aa0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csvwriting.py" beforeDir="false" afterPath="$PROJECT_DIR$/csvwriting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +50,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/csvwriting.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Testing.py" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eyuae\Documents\GitHub\FinanceTrackerDesktopApp" />
       <recent name="C:\Users\eyuae\Documents\GitHub\FinanceTrackerDesktopApp\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csvwriting">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Testing">
+    <configuration name="GUI Testing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FinanceTrackerDesktopApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +72,28 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI Testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="FinanceTrackerDesktopApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\eyuae\python-versions\py390\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +145,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.GUI Testing" />
+      <item itemvalue="Python.Testing" />
       <item itemvalue="Python.csvwriting" />
       <item itemvalue="Python.main" />
     </list>
@@ -151,34 +175,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="859" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613058828748">
+    <state x="414" y="85" width="1092" height="955" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618570789219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="859" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613058828748" />
+    <state x="414" y="85" width="1092" height="955" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618570789219" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613068888088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613068888088" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1612806408480">
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1618418593827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612806408480" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1613071873882">
+    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618418593827" />
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1619373658115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613071873882" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1613071873882">
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619373658115" />
+    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1619373658115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613071873882" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1613071873882">
+    <state width="1899" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619373658115" />
+    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1619373658115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613071873882" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1613071873882">
+    <state width="1899" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619373658115" />
+    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1619373658115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613071873882" />
+    <state width="1899" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619373658115" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1613813829340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613813829340" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1613813829340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613813829340" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1613813829340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613813829340" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1613813829340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613813829340" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1612596230370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,9 +227,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="438" y="224" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1613053530047" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1613065898469">
+    <state x="1147" y="119" width="585" height="801" key="find.popup" timestamp="1613850305889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613065898469" />
+    <state x="1147" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613850305889" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613768723130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613768723130" />
   </component>
 </project>
